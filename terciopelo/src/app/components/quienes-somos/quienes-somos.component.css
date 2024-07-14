@@ -1,0 +1,11 @@
+#p_quinesSomos{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#descripcion {
+    margin: 10px 200px 50px 200px;
+    font-weight: 400;
+    text-align: justify;
+}

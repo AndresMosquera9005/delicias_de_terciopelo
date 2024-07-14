@@ -1,0 +1,37 @@
+:host {
+    --color-texto-header: #000;
+    --color-borde-header: #b062e9;
+    --color-hover: #b062e9;
+    --color-texto:#400505;
+}
+
+.navbar {
+    /* background-color: red; */
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--color-borde-header);
+}
+
+.navbar-brand {
+    color: var(--color-texto-header); 
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: var(--color-hover);  
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+a{
+    /* font-family: "Permanent Marker", cursive; */
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: block;
+    }
+}
