@@ -1,0 +1,27 @@
+/* a.whatsapp-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+
+a.whatsapp-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+a.whatsapp-link img {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+}
