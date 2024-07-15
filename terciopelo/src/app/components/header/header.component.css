@@ -2,7 +2,9 @@
     --color-texto-header: #000;
     --color-borde-header: #b062e9;
     --color-hover: #b062e9;
+    --color-fondo-btn: #b062e9;
     --color-texto:#400505;
+    --color-texto-btn: #fff;
 }
 
 .navbar {
@@ -29,16 +31,19 @@
 } */
 
 .btn-producto {
-    /* background-color: var(--color-texto); */
+    background-color: var(--color-fondo-btn);
     border: 1px solid var(--color-borde-header);
-    color: var(--color-texto);
+    color: var(--color-texto-btn);
     border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .btn-desplegable {
-    background-color: var();
+    background-color: var(--color-fondo-btn);
     border: 1px solid var(--color-borde-header);
     border-radius: 10px;
+    color: var(--color-texto-btn);
 }
 
 
