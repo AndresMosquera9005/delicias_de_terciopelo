@@ -13,6 +13,10 @@ import { TradicionalesComponent } from '../tradicionales/tradicionales.component
 export class HeaderComponent {
   constructor( private router: Router ){  }
 
+  pantallaInicio(){
+    this.router.navigate(['body'])
+  }
+  
   listaMenuSaludable(){
     this.router.navigate(['saludables'])
   }
@@ -20,5 +24,7 @@ export class HeaderComponent {
   listaMenuTradicionales(){
     this.router.navigate(['tradicionales'])
   }
+
+  
 
 }
