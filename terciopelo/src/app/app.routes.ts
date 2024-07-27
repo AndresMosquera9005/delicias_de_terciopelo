@@ -6,7 +6,7 @@ import { SaludablesComponent } from './components/saludables/saludables.componen
 
 export const routes: Routes = [
     {
-        path:'', component: HeaderComponent
+        path:'', component: BodyComponent
     },
     {
         path:'body', component: BodyComponent
@@ -19,5 +19,9 @@ export const routes: Routes = [
     },
     {
         path: 'saludables', component: SaludablesComponent
+    },
+    {
+        path: '**' , component : TradicionalesComponent
     }
+    
 ];
