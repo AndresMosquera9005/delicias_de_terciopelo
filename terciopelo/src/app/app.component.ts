@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { BarraNavegacionComponent } from "./components/barra-navegacion/barra-navegacion.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { TradicionalesComponent } from "./components/tradicionales/tradicionales.component";
 import { QuienesSomosComponent } from "./components/quienes-somos/quienes-somos.component";
@@ -8,7 +7,7 @@ import { QuienesSomosComponent } from "./components/quienes-somos/quienes-somos.
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BarraNavegacionComponent, HeaderComponent, TradicionalesComponent, QuienesSomosComponent],
+  imports: [RouterOutlet, HeaderComponent, TradicionalesComponent, QuienesSomosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
