@@ -1,7 +1,17 @@
+:host {
+    --color-titulo: #B062E9;
+    --color-parrafo: #000;
+    --color-titulo-hover: #E1BEFA;
+    --color-borde: #E1BEFA;
+    --tamano-letra-titulo: 20px;
+}
+
 #p_quinesSomos{
     text-align: center;
     margin-top: 10px;
     font-weight: 400;
+    color: var(--color-titulo);
+    font-size: var(--tamano-letra-titulo);
 }
 
 #descripcion {

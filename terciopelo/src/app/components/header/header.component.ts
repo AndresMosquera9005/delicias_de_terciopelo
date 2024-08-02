@@ -25,6 +25,19 @@ export class HeaderComponent {
     this.router.navigate(['tradicionales'])
   }
 
-  
+  registro(){
+    this.router.navigate(['registro'])
+  }
 
+  login(){
+    this.router.navigate(['login'])
+  }
+
+  carritoDeCompras(){
+    this.router.navigate(['carrito de compras'])
+  }
+  
 }
+
+
+

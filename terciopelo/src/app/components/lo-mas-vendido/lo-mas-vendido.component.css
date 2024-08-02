@@ -1,10 +1,18 @@
+:host {
+    --color-titulo: #B062E9;
+    --color-parrafo: #000;
+    --color-titulo-hover: #E1BEFA;
+    --color-borde: #E1BEFA;
+    --tamano-letra-titulo: 20px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid #E1BEFA;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -19,15 +27,17 @@
     padding: 15px;
 }
 
-p {
+#p-titulo {
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    color: var(--color-titulo);
 }
 
-p:hover {
-    transform: scale(1.1);
+#p-titulo:hover {
+    transform: scale(1.2);
+    color: var(--color-titulo-hover);
 }
 
 
