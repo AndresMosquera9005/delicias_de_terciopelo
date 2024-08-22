@@ -1,1 +1,32 @@
 <p>registro works!</p>
+<div id="body-registro">
+    <div>
+        <p>Nombre y Apellido:</p>
+        <input type="text" placeholder="Nombre y Apellido">
+    </div>
+
+    <div>
+        <p>Correo electronico</p>
+        <input type="email" placeholder="Email">
+    </div>
+
+    <div>
+        <p>Correo electronico:</p>
+        <input type="email" placeholder="Correo electronico">
+    </div>
+
+    <div class="row g-2">
+        <div class="col-md">
+            <div class="form-floating">
+                <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected>SELECCIONE GENERO</option>
+                    <option value="1">MUJER</option>
+                    <option value="2">HOMBRE</option>
+                    <option value="3">OTROS</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <button id="inisiarSesion" class="espacio-btn" (click)="inicio()">Iniciar sesion</button>
+</div>

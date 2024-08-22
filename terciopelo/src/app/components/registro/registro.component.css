@@ -1,0 +1,51 @@
+:host {
+    --color-margin: ;
+    --color-fondo-btn: #b062e9;
+    --color-texto-btn: #fff;
+    --color-borde: #b062e9;
+    --color-sobra:#b578e1;
+}
+
+#body-registro {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px var(--color-sobra);
+}
+
+#body-registro div {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-borde);
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-fondo-btn);
+    color:  var(--color-texto-btn);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#registrame {
+    background-color: #2196F3;
+}
+
+.espacio-btn{
+    margin-bottom: 10px;
+}
