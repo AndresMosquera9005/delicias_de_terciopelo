@@ -1,0 +1,14 @@
+:host {
+    --color-text-btn: #fff;
+    --color-fondo-btn: #b062e9;
+}
+
+img {
+    margin: 10% 50%;
+}
+
+.btn {
+    color: var(--color-text-btn);
+    background: var(--color-fondo-btn) ;
+    margin: 0 30%;
+}
