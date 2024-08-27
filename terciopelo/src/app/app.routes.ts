@@ -36,6 +36,7 @@ export const routes: Routes = [
     {
         path:'carrito de compras', component: CarritoDeComprasComponent
     },
+    
     {
         path: '**' , component : TradicionalesComponent
     }

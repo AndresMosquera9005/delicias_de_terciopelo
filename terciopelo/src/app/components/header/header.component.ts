@@ -36,7 +36,7 @@ export class HeaderComponent {
   carritoDeCompras(){
     this.router.navigate(['carrito de compras'])
   }
-  
+
 }
 
 
