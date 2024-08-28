@@ -16,8 +16,12 @@ export class CarritoDeComprasComponent {
 
   constructor(private router: Router){}
 
-  regresarcompra() {
-    this.router.navigate(['body'])
+  regresartortatradicionales() {
+    this.router.navigate(['tradicionales'])
+  }
+
+  regresartortasaludables() {
+    this.router.navigate(['saludables'])
   }
 
 
