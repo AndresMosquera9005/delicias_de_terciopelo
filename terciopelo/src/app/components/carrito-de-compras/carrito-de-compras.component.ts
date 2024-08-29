@@ -25,10 +25,10 @@ export class CarritoDeComprasComponent {
   }
 
 
-  ngOnInit():void{
-    this.actualizarCarrito()
-    this.actulizarCantidadYTotal()
-  }
+  // ngOnInit():void{
+  //   this.actualizarCarrito()
+  //   this.actulizarCantidadYTotal()
+  // }
   
   actualizarCarrito():void{
     let data:any = localStorage.getItem("carrito")
@@ -130,6 +130,7 @@ export class CarritoDeComprasComponent {
         });
       }
     });
-  
   }
+
+  
 }

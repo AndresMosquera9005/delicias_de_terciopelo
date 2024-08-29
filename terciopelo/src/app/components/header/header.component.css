@@ -44,3 +44,8 @@
 p-header {
     color: var() ;
 }
+
+.margin-header {
+    border: 2px solid var(--color-fondo-btn);
+    padding: 5px;
+}
